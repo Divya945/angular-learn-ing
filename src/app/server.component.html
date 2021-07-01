@@ -1,7 +1,7 @@
 <p>This is the server component</p>
 <p> {{'server '}}ID is {{serverID}} and the status is {{getServerStatus()}}</p>
 
-<button 
+<button
 [disabled]="!allowNewServer"
 (click)="onCreateServer()"
  class="btn btn-primary"
