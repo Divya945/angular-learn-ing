@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import ProductListItems from './products.json';
 
 interface Product {
-  productName : string;
+  productName: string;
+  Details: string;
+  share: string;
 }
 @Component({
   selector: 'app-product-list',
