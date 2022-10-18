@@ -13,4 +13,8 @@ interface Product {
 })
 export class AppProductList {
   products: Product[] = ProductListItems;
+
+  share() {
+    alert('sdssd');
+  }
 }
