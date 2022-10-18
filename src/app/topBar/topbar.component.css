@@ -1,0 +1,15 @@
+.topbar {
+  width: auto;
+  background-color: aqua;
+  display: flex;
+  padding: 15px;
+  margin: 0;
+}
+.topbar-left {
+  width: 50%;
+  text-align: left;
+}
+.topbar-right {
+  width: 50%;
+  text-align: right;
+}
